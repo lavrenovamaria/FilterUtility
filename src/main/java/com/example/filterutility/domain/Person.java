@@ -5,11 +5,11 @@ import java.time.LocalDate;
 public class Person {
     private String firstName;
     private String lastName;
-    private String gender;
+    private Gender gender;
 
     private LocalDate birthdate;
 
-    public Person(String firstName, String lastName, String gender, LocalDate birthdate) {
+    public Person(String firstName, String lastName, Gender gender, LocalDate birthdate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
