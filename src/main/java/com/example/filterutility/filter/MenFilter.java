@@ -8,4 +8,9 @@ public class MenFilter<T> implements GenderFilter<T> {
 
         return items;
     }
+
+    @Override
+    public List<T> apply(List<T> collection) {
+        return null;
+    }
 }
